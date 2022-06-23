@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+/*reset*/
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    text-decoration: none;
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(../img/textura.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+}
+
+/*navbar*/
+.barra{
+    background-color: rgba(134, 38, 38, 0.5);
+    text-decoration: none;
+    padding: 5px 30px;
+}
+nav ul{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    margin: 0 8px;
+}
+/*textos y etc*/
+h1{
+    width: 70%;
+}
+a{
+    text-decoration: none;
+}
+.nota{
+display: inline-block;
+}
+.articlePpal{
+    width: 70%;
+    height: auto;
+}
+.topBos{
+    width: 80%;
+    margin: 4px;
+    display: inline-block;
+    border: solid 2px gray;
+}
+/*imagenes*/
+.imgBods{
+    max-width: 20rem;
+    max-height: 20rem;
+}
+.icono{
+    max-width: 3rem;
+    max-height: 3rem;
+    display: inline-block;
+}
+
+.fotoppal{
+max-width: 45rem;
+max-height: 45rem;
+}
+.pie__icon-sml{
+    max-width: 5rem;
+    max-height: 5rem;
+}
+.pie__icon2-sml{
+    max-width: 6.3rem;
+    max-height: 6.3rem ;
+}
+
+.sideBarr__img-m{
+    max-width: 30rem;
+    max-height: 30rem;
+}
+
+/*Presets para clases en html*/
+
+.textRight{
+    text-align: right;
+}
+.textCenter{
+    text-align: center;
+}
+.textLeft{
+    text-align: left;
+}
+
+.textBold{
+    font-weight: 500;
+}
+.textLight{
+    font-weight: 300;
+}
+.textRegular{
+    font-weight: 400;
+}
+
+.textXXL{
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 4.4rem;
+    text-decoration: none;
+    color: rgb(255, 254, 197);
+    font-family: 'Roboto', sans-serif;
+}
+.textNormal{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-decoration: none;
+    color: rgb(255, 254, 197);
+}
+
+.textSmall{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-decoration: none;
+    color: rgb(255, 254, 197);
+}
+
