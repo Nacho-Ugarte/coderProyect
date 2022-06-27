@@ -9,6 +9,8 @@
 html{
     text-decoration: none;
     font-size: 62.5%;
+    position: relative;
+    min-height: 100%;
 }
 
 body{
@@ -24,10 +26,10 @@ body{
     text-decoration: none;
     padding: 5px 30px;
 }
-nav ul{
+ul{
     display: inline-block;
 }
-li{
+ul li{
     display: inline-block;
     margin: 0 8px;
 }
@@ -43,7 +45,7 @@ display: inline-block;
 }
 .articlePpal{
     width: 70%;
-    height: auto;
+;
 }
 .topBos{
     width: 80%;
@@ -67,12 +69,12 @@ max-width: 45rem;
 max-height: 45rem;
 }
 .pie__icon-sml{
-    max-width: 5rem;
-    max-height: 5rem;
+    max-width: 2rem;
+    max-height: 2rem;
 }
 .pie__icon2-sml{
-    max-width: 6.3rem;
-    max-height: 6.3rem ;
+    max-width: 2.8rem;
+    max-height: 2.8rem;
 }
 
 .sideBarr__img-m{
@@ -126,5 +128,44 @@ max-height: 45rem;
     line-height: 2rem;
     text-decoration: none;
     color: rgb(255, 254, 197);
+}
+
+.textFooter{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-decoration: none;
+    color: rgb(134, 38, 38); 
+}
+
+/*Grid*/
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: 60px 1000px 40px;
+    grid-template-areas: 
+    "nav nav nav"
+    "main main der"
+    "pie pie pie";
+}
+
+.botonera{
+    grid-area: nav;
+}
+.main{
+    grid-area: main;
+}
+.sideBarr{
+    grid-area: der;
+}
+#pie{
+    grid-area: pie;
+    position: fixed;
+    width: 100%;
+    max-height: 30px;
+    bottom: 0;
+    background-color:rgb(148, 146, 146) ;
 }
 

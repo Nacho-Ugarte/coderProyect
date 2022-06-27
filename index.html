@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="img/favicon.png" />
 </head>
-
+<div class="grid template-areas">
 <body>
-    <header>
+
+    <header class="botonera ">
         <nav class="barra textNormal ">
             <ul class="barra__list">
                 <li>
@@ -31,7 +32,8 @@
             </ul>
         </nav>
     </header>
-    <main>
+
+    <main class="main">
     <!-- la idea es que aparezca a modo de tareta las notas y si a la persona le interese entrar a la pagina de esa nota -->
     <div class="nota">
         <a href="#">
@@ -78,44 +80,60 @@
     </main>
 
     <aside class="sideBarr">
-    <div>
-        <img class="sideBarr__img-m" src="img/trezWines.png" alt="imagen de bodega trez wines"/>
-        <article>
-            <p class="textLeft textNormal">
+        <div>
+            <img class="sideBarr__img-m" src="img/trezWines.png" alt="imagen de bodega trez wines"/>
+            <article>
+                <p class="textLeft textNormal">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
                 reiciendis perferendis repellendus dolore ut magnam consequatur quis
                 ratione vel deserunt. Distinctio, eveniet nu
-            </p>
-        </article>
-    </div>
-    <div>
-        <img class="sideBarr__img-m" src="img/kaiken.png" alt="frente de bodega kaiken" />
-        <article>
-            <p class="textLeft textNormal">
+                </p>
+            </article>
+        </div>
+        <div>
+            <img class="sideBarr__img-m" src="img/kaiken.png" alt="frente de bodega kaiken" />
+            <article>
+                <p class="textLeft textNormal">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
                 aspernatur incidunt vero blanditiis magnam fuga, iure veniam natus
                 dolor deleniti repellat tempora, recusandae
-            </p>
-        </article>
-    </div>
+                </p>
+            </article>
+        </div>
     </aside>
 </body>
 
-<footer class="pie textCenter">
-    <div>
-        <h3 class="textNormal">Follow Us!</h3>
+<footer id="pie">
+    <div class="textCenter">
         <ul>
+            <li>
+                <h3 class="textFooter">Follow Us!</h3>
+            </li>
+            <li>
             <a href="https://www.facebook.com" target="_blank">
-            <img class="pie__icon-sml" src="img/facebook.png" alt="" />
+                <img class="pie__icon-sml" src="img/facebook.png" alt="" />
             </a>
+            </li>
+            <li>
             <a href="https://www.twitter.com" target="_blank">
             <img class="pie__icon2-sml" src="img/twitter.png" alt="" />
             </a>
+            </li>
+            <li>
             <a href="https://www.instagram.com" target="_blank">
             <img class="pie__icon-sml" src="img/instagram.png" alt="" />
             </a>
-    </ul>
+            </li>
+        </ul>
     </div>
 </footer>
+
+
+
+
+</div>
+
+
+
 
 </html>
