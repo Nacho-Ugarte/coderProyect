@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../images/textura.png);
+    background-attachment: fixed;
+    background-repeat: inherit;
+}
+
+.navegador{
+    background-color: rgb(107, 55, 0);
+    display: block;
+}
+li{
+    display: inline-block;
+    margin: .8rem;
+}
+
+h1,
+h3,
+a,
+p{
+    font-family: 'Roboto', sans-serif;
+    color: slategray;
+}
+
+.fotoMuri img{
+    max-width: 20rem;
+    max-height: 20rem ;
+}
